@@ -3,6 +3,8 @@ import NavBar from '../components/NavBar';
 
 export default function art() {
   return (
-    <div><NavBar /></div>
+    <div>
+        <NavBar />
+    </div>
   )
 }
