@@ -1,7 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Carousel from './Carousel';
+import { galleryData } from '../components/GallariesData'; // Corrected path and import name
 
-export default function ArtCards() {
+function ArtCards() {
   return (
-    <div>ArtCards</div>
-  )
+    <div className="d-flex flex-wrap">
+      {galleryData.map((gallery, index) => (
+        <Carousel key={index} title={gallery.title} images={gallery.images} />
+      ))}
+    </div>
+  );
 }
+
+export default ArtCards;
