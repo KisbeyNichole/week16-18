@@ -2,6 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ConstructionImage from '../images/Construction.png'
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 export default function NewPageCard() {
   return (
@@ -14,7 +15,7 @@ export default function NewPageCard() {
         <Card.Text>
          Check Out my personal Project for Amissara! 
         </Card.Text>
-        <Button variant="primary">Dive in</Button>
+        <Button as={Link} to="/amissara" variant="primary">Dive in</Button>
       </Card.Body>
     </Card>
 

@@ -51,10 +51,10 @@ function Example() {
             active Medias!
           </Card.Text>
           <ButtonGroup className="mb-2">
-            <Button>Instagram</Button>
-            <Button>DeviantArt</Button>
-            <Button>Cara</Button>
-            <Button>Discord</Button>
+            <Button href="https://www.instagram.com/blooerror404/">Instagram</Button>
+            <Button href="https://www.deviantart.com/blooerror404">DeviantArt</Button>
+            <Button href="https://cara.app/blooerror404">Cara</Button>
+            <Button href="https://discord.gg/ECRaHKXR8m">Discord</Button>
           </ButtonGroup>
         </Card.Body>
         

@@ -10,7 +10,7 @@ export default function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
     <Container>
-      <Navbar.Brand href="#home"> 
+      <Navbar.Brand as={Link} to="/"> 
         <img
               alt=""
               src= {LogoImage}
@@ -29,7 +29,7 @@ export default function NavBar() {
             <Nav.Link as={Link} to="/amissara">Amissara</Nav.Link>
           <NavDropdown title="Other Links" id="basic-nav-dropdown">
             <NavDropdown.Item href="https://www.instagram.com/blooerror404/">See My Full Gallary</NavDropdown.Item>
-            <NavDropdown.Item href="https://www.fiverr.com/blooperstillfir?up_rollout=true">
+            <NavDropdown.Item href="https://www.fiverr.com/blooperstillfir">
               See My Commisions
             </NavDropdown.Item>
             <NavDropdown.Item href="patreon.com/BlooError404">Support me on Patreon</NavDropdown.Item>
