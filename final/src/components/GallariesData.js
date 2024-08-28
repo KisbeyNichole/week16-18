@@ -29,10 +29,10 @@ import Vd4 from '../images/Vd4.png';
 import Vd5 from '../images/Vd5.png';
 
 export const galleryData = [
-  { title: 'Character Design', images: [Cd1, Cd2, Cd3, Cd4, Cd5] },
-  { title: 'Creature Design', images: [Crd1, Crd2, Crd3, Crd4, Crd5] },
-  { title: 'Weapon Design', images: [Wd1, Wd2, Wd3, Wd4, Wd5] },
-  { title: 'Environment Design', images: [Ed1, Ed2, Ed3, Ed4, Ed5] },
-  { title: 'Vehicle Design', images: [Vd1, Vd2, Vd3, Vd4, Vd5] }
+  { title: 'Character Design', description:'Check out my Character designs', images: [Cd1, Cd2, Cd3, Cd4, Cd5] },
+  { title: 'Creature Design', description:'Check out my Creature designs', images: [Crd1, Crd2, Crd3, Crd4, Crd5] },
+  { title: 'Weapon and Prop Design', description:'Check out my Weapon and Prop designs', images: [Wd1, Wd2, Wd3, Wd4, Wd5] },
+  { title: 'Environment Design', description:'Check out my Enviroment Designs', images: [Ed1, Ed2, Ed3, Ed4, Ed5] },
+  { title: 'Vehicle Design', description:'Check out my Vehicle Designs', images: [Vd1, Vd2, Vd3, Vd4, Vd5] }
 ];
 

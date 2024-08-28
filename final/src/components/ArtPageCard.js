@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ConstructionImage from '../images/Construction.png'
 
+
 export default function NewPageCard() {
   return (
     <div>
