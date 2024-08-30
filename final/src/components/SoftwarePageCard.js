@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import ConstructionImage from '../images/Construction.png'
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
+
 export default function NewPageCard() {
   return (
     <div>
